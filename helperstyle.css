@@ -1,0 +1,172 @@
+html{
+    font-size: 15px;
+    overflow-x: hidden;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.upperdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.line1{
+    width: 50%;    
+    display: flex;
+    flex-direction: row;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.divimage{
+    padding-left: 1%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.image1{
+    width: -webkit-fill-available;
+    height: 150px;
+
+}
+
+.Title1 {
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-image: linear-gradient(to right, #179deb, #07598f);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.line2{
+    margin-right: 15%;
+    margin-top: 5%;
+    width: 37%;
+    
+}
+
+.horizontalLine{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-style: ridge;
+    border-width: 1px;
+
+}
+
+.interline2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.AboutUs{
+    padding-left: 4%;
+    font-size: 220%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; 
+    width: 27%;
+    
+}
+
+.miniline1{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: ridge;
+    border-width: 1px;
+    transform: rotate(210deg);
+    height: 50px;
+    margin-left: 0;
+    margin-top: 0;
+
+}
+
+.ContactUs{
+    font-size: 220%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    width: 31%;
+ 
+}
+
+.miniline2{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: ridge;
+    border-width: 1px;
+    transform: rotate(210deg);
+    height: 50px;
+    margin-left: 0;
+    margin-top: 0;
+
+}
+
+.SupportUs{
+    font-size: 220%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    width: 31%;
+
+}
+
+.buttonL2{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 60%;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms,background 200ms;
+    background: transparent;
+    color: #297fcf;
+    box-shadow: 0 0 0 3px #92868663 inset;
+
+}
+.buttonL2:hover{
+    transform: translateY(-2px);
+}
+
+.rightdiv{
+    
+
+}
+
+.longline{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: ridge;
+    border-width: 1px;
+    transform: rotate(90deg);
+    margin-left: 1300px;
+   
+}
+
