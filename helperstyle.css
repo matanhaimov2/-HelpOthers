@@ -11,27 +11,23 @@ body{
 }
 
 .upperdiv{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
    
 }
 
-.line1{
-    width: 50%;    
+.border1{
+    height: 100%;
+    width: 90em;
     display: flex;
     flex-direction: row;
-    unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
     border-style: inset;
     border-width: 1px;
+   
 }
 
 .divimage{
-    padding-left: 1%;
     width: 150px;
     height: 150px;
 
@@ -43,7 +39,8 @@ body{
 
 }
 
-.Title1 {
+.Title1{
+    width: 100%;
     font-size: 200%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -51,13 +48,13 @@ body{
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    width: -moz-fit-content;
+    width: fit-content;
 
 }
 
-.line2{
-    margin-right: 15%;
-    margin-top: 5%;
-    width: 37%;
+.border2{
+    width: 70%;
     
 }
 
@@ -68,6 +65,8 @@ body{
     margin-inline-end: auto;
     border-style: ridge;
     border-width: 1px;
+    margin-top: 15%;
+
 
 }
 
@@ -82,22 +81,20 @@ body{
     font-size: 220%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; 
-    width: 27%;
+    width: 30%;
     
 }
 
+.minilinesboxes{
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
 .miniline1{
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
     border-style: ridge;
     border-width: 1px;
     transform: rotate(210deg);
     height: 50px;
-    margin-left: 0;
-    margin-top: 0;
 
 }
 
@@ -110,17 +107,10 @@ body{
 }
 
 .miniline2{
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
     border-style: ridge;
     border-width: 1px;
     transform: rotate(210deg);
     height: 50px;
-    margin-left: 0;
-    margin-top: 0;
 
 }
 
@@ -138,7 +128,7 @@ body{
     border: 0;
     cursor: pointer;
     border-radius: 8px;
-    padding: 14px 24px 16px;
+    padding: 12px 22px 14px;
     font-size: 60%;
     font-weight: 700;
     line-height: 1;
@@ -153,8 +143,8 @@ body{
 }
 
 .rightdiv{
+    width: 20%;
     
-
 }
 
 .longline{
@@ -162,11 +152,10 @@ body{
     margin-block-end: 0.5em;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    overflow: hidden;
     border-style: ridge;
     border-width: 1px;
     transform: rotate(90deg);
-    margin-left: 1300px;
    
 }
+
 
