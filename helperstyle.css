@@ -11,7 +11,7 @@ body{
 }
 
 .upperdiv{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
    
@@ -19,7 +19,7 @@ body{
 
 .border1{
     height: 100%;
-    width: 90em;
+    width: 55em;
     display: flex;
     flex-direction: row;
     border-style: inset;
@@ -30,7 +30,7 @@ body{
 .divimage{
     width: 150px;
     height: 150px;
-
+    margin-left: 1%;
 }
 
 .image1{
@@ -54,20 +54,14 @@ body{
 }
 
 .border2{
-    width: 70%;
-    
-}
-
-.horizontalLine{
+    width: 60%;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
     margin-inline-start: auto;
     margin-inline-end: auto;
     border-style: ridge;
     border-width: 1px;
-    margin-top: 15%;
-
-
+    margin-top: 4.6%;
 }
 
 .interline2{
@@ -81,7 +75,7 @@ body{
     font-size: 220%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; 
-    width: 30%;
+    width: 14%;
     
 }
 
@@ -102,7 +96,7 @@ body{
     font-size: 220%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    width: 31%;
+    width: 15%;
  
 }
 
@@ -118,11 +112,11 @@ body{
     font-size: 220%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    width: 31%;
+    width: 15%;
 
 }
 
-.buttonL2{
+.buttonL1{
     display: inline-block;
     outline: 0;
     border: 0;
@@ -136,15 +130,17 @@ body{
     background: transparent;
     color: #297fcf;
     box-shadow: 0 0 0 3px #92868663 inset;
+    margin-top: 6%;
 
 }
-.buttonL2:hover{
+.buttonL1:hover{
     transform: translateY(-2px);
 }
 
-.rightdiv{
-    width: 20%;
-    
+.longlinediv{
+    transform: rotate(90deg); /*DISABLING BUTTONS*/
+    padding-bottom: 69.5%;
+
 }
 
 .longline{
@@ -154,8 +150,71 @@ body{
     margin-inline-end: auto;
     border-style: ridge;
     border-width: 1px;
-    transform: rotate(90deg);
-   
+      
+}
+
+.recently{
+    margin-left: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    transition: transform 200ms,background 200ms;
+    background: transparent;
+    color: #297fcf;
+}
+
+.rightdiv{
+    margin-left: 86%;
+    position: absolute;
+    width: 13%;
+    height:100%;
+
+}
+
+.left-middle-div{
+    position: absolute;
+    width: 84%;
+    height:100%;
+}
+
+.objectsDB{
+    width: 100%;
+    height: 50%;
+}
+
+.objectsbuttons{
+    width: 100%;
+    height: 20%;
+    margin-top: 5%;
+}
+
+.buttons1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+
+.Makedonation{
+    margin-right: 35%;
+}
+
+.buttonL2{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 12px 22px 14px;
+    font-size: 150%;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms,background 200ms;
+    background: transparent;
+    color: #3c9bf5;
+    box-shadow: 0 0 0 3px #92868663 inset;
+
+}
+.buttonL2:hover{
+    transform: translateY(-2px);
 }
 
 
