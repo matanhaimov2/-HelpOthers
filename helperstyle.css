@@ -19,7 +19,7 @@ body{
 
 .border1{
     height: 100%;
-    width: 55em;
+    width: 50%;
     display: flex;
     flex-direction: row;
     border-style: inset;
@@ -41,33 +41,31 @@ body{
 
 .Title1{
     width: 100%;
-    font-size: 200%;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     background-image: linear-gradient(to right, #179deb, #07598f);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    width: -moz-fit-content;
-    width: fit-content;
-
 }
 
 .border2{
-    width: 60%;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+    width: 50%;
+    margin-block-start: 5%;
+    /* margin-block-end: 0.5em; */
+    /* margin-inline-start: auto; */
+    /* margin-inline-end: auto; */
     border-style: ridge;
     border-width: 1px;
-    margin-top: 4.6%;
+    /* margin-top: 4.6%; */
+    /* position: absolute; */
+    position: relative;
 }
 
 .interline2{
     display: flex;
     flex-direction: row;
-
 }
 
 .AboutUs{
@@ -76,7 +74,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; 
     width: 14%;
-    
 }
 
 .minilinesboxes{
@@ -102,11 +99,17 @@ body{
 
 
 .SupportUs{
-    font-size: 220%;
+    width: max-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     width: 15%;
 
+}
+
+.buttonL1-wrapper {
+    width: fit-content !important;
+    font-size: 200% !important;
+    line-height: 250%;
 }
 
 .buttonL1{
@@ -124,10 +127,16 @@ body{
     color: #297fcf;
     box-shadow: 0 0 0 3px #92868663 inset;
     margin-top: 6%;
+    width: max-content;
 
 }
+
 .buttonL1:hover{
     transform: translateY(-2px);
+}
+
+.button-title-main-nav {
+    width: max-content;
 }
 
 .longlinediv{

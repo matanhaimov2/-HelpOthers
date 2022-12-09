@@ -1,0 +1,115 @@
+html{
+    width: 98vw;
+    height: 100vh;
+    font-size: 15px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    border-bottom: solid 1px #ddcbcb;
+    border-left: solid 1px #ddcbcb;
+    /* border-style: inset; */
+}
+
+.main-nav-section {
+    width: 33.33%;
+}
+
+.main-nav-sub-section{
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+    height: -webkit-fill-available;
+    margin: auto;
+  
+    position: absolute;
+    bottom: 0px;
+    height: 50%;
+
+    border-right: solid 1px #ddcbcb;
+    border-top: solid 1px #ddcbcb;
+    border-bottom: solid 1px #ddcbcb;
+}
+
+.main-nav-img-wrapper {
+    align-items: center;
+    display: flex;
+    width: 300px;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    border-top: solid 1px #ddcbcb;
+}
+
+.main-nav-img {
+    width: 100%;
+}
+
+.main-nav-title-wrapper {
+    width: 100%;
+    font-size: 300%;
+    margin: auto;
+    padding-right: 5%;
+
+    background-image: linear-gradient(to right, #179deb, #07598f);
+    color: transparent;
+    -webkit-background-clip: text;
+
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+    border-right: solid 1px #ddcbcb;
+    border-top: solid 1px #ddcbcb;
+}
+
+.main-nav-buttons {
+  
+    width: 100% !important;
+
+    padding-right: 5%;
+    position: relative;
+}
+
+.button-wrapper {
+    width: 33.33%;
+    margin: auto;
+    padding-left: 2%;
+}
+
+.main-nav-button {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10% 20% 10%;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms,background 200ms;
+    background: transparent;
+    color: #297fcf;
+    box-shadow: 0 0 0 3px #92868663 inset;
+    border-radius: 10px;
+}
+
+.minilinesboxes{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.miniline{
+    border-style: ridge;
+    border-width: 1px;
+    transform: rotate(210deg);
+    height: 90%;
+}
