@@ -9,7 +9,9 @@ body{
     height: 100%;
 
 }
-
+.shlomi{
+    width:none;
+}
 .upperdiv{
     width: 100%;
     display: flex;
