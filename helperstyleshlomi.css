@@ -12,15 +12,15 @@ body {
 .main-nav{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    
+    width: 100%;  
     border-bottom: solid 1px #ddcbcb;
     border-left: solid 1px #ddcbcb;
-    /* border-style: inset; */
+
 }
 
 .main-nav-section {
     width: 33.33%;
+
 }
 
 .main-nav-sub-section{
@@ -37,16 +37,18 @@ body {
     border-right: solid 1px #ddcbcb;
     border-top: solid 1px #ddcbcb;
     border-bottom: solid 1px #ddcbcb;
+
 }
 
 .main-nav-img-wrapper {
     align-items: center;
     display: flex;
     width: 300px;
-
+    
     padding-left: 2%;
     padding-right: 2%;
     border-top: solid 1px #ddcbcb;
+
 }
 
 .main-nav-img {
@@ -72,17 +74,17 @@ body {
 }
 
 .main-nav-buttons {
-  
-    width: 100% !important;
-
+    width: 100%;
     padding-right: 5%;
     position: relative;
+
 }
 
 .button-wrapper {
     width: 33.33%;
     margin: auto;
     padding-left: 2%;
+    
 }
 
 .main-nav-button {
@@ -101,6 +103,11 @@ body {
     box-shadow: 0 0 0 3px #92868663 inset;
     border-radius: 10px;
 }
+.main-nav-button:hover{
+    transform: translateY(-2px);
+}
+
+
 
 .minilinesboxes{
     margin-right: 5%;
@@ -112,4 +119,88 @@ body {
     border-width: 1px;
     transform: rotate(210deg);
     height: 90%;
+}
+
+.main-leftmiddle-section{
+    position: absolute;
+    width: 84%;
+    height:100%;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-right: ridge;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.61);
+}
+
+.objectsDB{
+    width: 100%;
+    height: 60%;
+}
+
+.main-actions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.actions-button-wrapper{
+    width: 35%;
+    margin-left: 2%;
+}
+
+.actions-buttons {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10% 20% 10%;
+    font-size: 200%;
+    font-weight: 700;
+    transition: transform 200ms,background 200ms;
+    background: transparent;
+    color: #297fcf;
+    box-shadow: 0 0 0 3px #38343463 inset;
+    border-radius: 10px;
+    width: 100%;
+
+    
+    
+
+    
+}
+.actions-buttons:hover{
+    transform: translateY(-2px);
+}
+
+
+.actions-space{
+    margin-right: 20%;
+}
+
+.main-right-section{
+    margin-left: 86%;
+    position: absolute;
+    width: 13%;
+    height:100%;
+
+}
+
+.title-right-section{
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 150%;
+
+    transition: transform 200ms,background 200ms;
+    background: transparent;
+    color: #297fcf;
 }
