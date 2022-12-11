@@ -38,6 +38,7 @@ body {
     border-top: solid 1px #ddcbcb;
     border-bottom: solid 1px #ddcbcb;
 
+
 }
 
 .main-nav-img-wrapper {
@@ -121,7 +122,7 @@ body {
     height: 90%;
 }
 
-.main-leftmiddle-section{
+.main-center-section{
     position: absolute;
     width: 84%;
     height:100%;
@@ -132,22 +133,23 @@ body {
     border-right: ridge;
     border-width: 3px;
     border-color: rgba(255, 255, 255, 0.61);
+
 }
 
-.objectsDB{
-    width: 100%;
-    height: 60%;
-}
+/* .main-photo{
+    background-image: url('https://gps.ucsd.edu/_images/alumni/banner_giving.jpeg');
+    height: 40%;
+} */
 
 .main-actions{
-    width: 100%;
+    width: 25%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .actions-button-wrapper{
-    width: 35%;
-    margin-left: 2%;
+    width: 100%;
+    margin-bottom: 10%;
 }
 
 .actions-buttons {
@@ -159,7 +161,7 @@ body {
     border: 0;
     cursor: pointer;
     border-radius: 8px;
-    padding: 10% 20% 10%;
+    padding: 8% 12% 8%;
     font-size: 200%;
     font-weight: 700;
     transition: transform 200ms,background 200ms;
@@ -167,20 +169,15 @@ body {
     color: #297fcf;
     box-shadow: 0 0 0 3px #38343463 inset;
     border-radius: 10px;
-    width: 100%;
 
-    
-    
-
-    
 }
 .actions-buttons:hover{
     transform: translateY(-2px);
 }
 
-
-.actions-space{
-    margin-right: 20%;
+.main-objects-center{
+    width: 100%;
+    height: 60%;
 }
 
 .main-right-section{
