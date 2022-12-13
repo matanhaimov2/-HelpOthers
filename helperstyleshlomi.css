@@ -7,6 +7,16 @@ html{
 body {
     width: 100%;
     height: 100%;
+    /* background-image: url('https://gps.ucsd.edu/_images/alumni/banner_giving.jpeg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: -1%;
+    padding: 1%;
+    background: rgba(255,255,255,0.2);
 }
 
 .main-nav{
@@ -15,6 +25,8 @@ body {
     width: 100%;  
     border-bottom: solid 1px #ddcbcb;
     border-left: solid 1px #ddcbcb;
+    background-image: url('https://gps.ucsd.edu/_images/alumni/banner_giving.jpeg');
+    ba
 
 }
 
@@ -136,10 +148,8 @@ body {
 
 }
 
-/* .main-photo{
-    background-image: url('https://gps.ucsd.edu/_images/alumni/banner_giving.jpeg');
-    height: 40%;
-} */
+ .main-photo{
+}
 
 .main-actions{
     width: 25%;

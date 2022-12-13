@@ -1,0 +1,18 @@
+cd to the path i want
+
+git init    ---  turn the folder to access to git
+
+git pull https://github.com/matanhaimov2/-HelpOthers.git main   ---- git pull extracts the files from your repositrys to branch main
+
+git branch main
+
+get checkout main
+
+git add .
+
+git commit -m 'comment that you wnat'
+
+git push https://github.com/matanhaimov2/-HelpOthers.git main
+
+
+
